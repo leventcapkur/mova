@@ -1,5 +1,7 @@
 # Mova
 
+![Mova — kendin için daha iyi bir yaşam alanı](src/assets/images/lifeos-hero-park.png)
+
 Mova; görevlerini, hedeflerini, alışkanlıklarını, su ve uyku kayıtlarını tek bir kişisel yaşam alanında buluşturan bir React + Vite + Supabase uygulamasıdır.
 
 ## Uygulamada neler var?
