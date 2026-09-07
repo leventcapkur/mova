@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="mova-base" x1="48" y1="43" x2="475" y2="485" gradientUnits="userSpaceOnUse"><stop stop-color="#2c8364"/><stop offset=".55" stop-color="#105343"/><stop offset="1" stop-color="#0a302a"/></linearGradient>
+    <linearGradient id="mova-petal-sun" x1="224" y1="69" x2="331" y2="256" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe49a"/><stop offset="1" stop-color="#d4f09e"/></linearGradient>
+    <linearGradient id="mova-petal-leaf" x1="272" y1="240" x2="443" y2="347" gradientUnits="userSpaceOnUse"><stop stop-color="#d9f0a3"/><stop offset="1" stop-color="#65cba0"/></linearGradient>
+    <linearGradient id="mova-petal-water" x1="80" y1="240" x2="251" y2="384" gradientUnits="userSpaceOnUse"><stop stop-color="#77d6c4"/><stop offset="1" stop-color="#a7e9b5"/></linearGradient>
+    <radialGradient id="mova-core" cx="0" cy="0" r="1" gradientTransform="translate(256 261) rotate(90) scale(96)"><stop stop-color="#f7f9d4"/><stop offset="1" stop-color="#d3eda3"/></radialGradient>
+    <filter id="mova-shadow" x="53" y="48" width="411" height="395" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="27" stdDeviation="18" flood-color="#031e19" flood-opacity=".38"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="148" fill="url(#mova-base)"/>
+  <rect x="29" y="29" width="454" height="454" rx="119" stroke="#e8f7c6" stroke-opacity=".16" stroke-width="5"/>
+  <circle cx="256" cy="256" r="181" stroke="#d6f2b1" stroke-opacity=".11" stroke-width="8"/>
+  <path d="M96 384c80-27 144-16 203 37 53 46 107 35 155-16" stroke="#e0f4b9" stroke-opacity=".13" stroke-width="11" stroke-linecap="round"/>
+  <g filter="url(#mova-shadow)">
+    <path d="M251 245c-53-64-48-139 11-176 64 43 80 112 27 176-12 14-25 22-38 0Z" fill="url(#mova-petal-sun)"/>
+    <path d="M272 251c64-43 139-21 171 43-48 59-123 64-176 16-13-12-12-34 5-59Z" fill="url(#mova-petal-leaf)"/>
+    <path d="M240 272c-16 75-80 117-155 101-5-75 43-133 117-139 23-2 42 13 38 38Z" fill="url(#mova-petal-water)"/>
+    <circle cx="256" cy="261" r="53" fill="url(#mova-core)"/>
+    <circle cx="256" cy="261" r="21" fill="#266f59"/>
+  </g>
+  <path d="M261 80c21 48 21 96-5 149M416 299c-53 5-101-11-139-43M96 331c43-27 91-43 144-48" stroke="#fffde4" stroke-opacity=".34" stroke-width="8" stroke-linecap="round"/>
+</svg>
